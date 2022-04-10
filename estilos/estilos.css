@@ -9,7 +9,7 @@
     --lg: 30px;
 }
 html {
-    background-image: url(https://www.pexels.https://images.pexels.com/photos/139306/pexels-photo-139306.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260/es-es/foto/superficie-de-madera-marron-139306/);
+    background-image: url("https://images.pexels.com/photos/139306/pexels-photo-139306.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
     background-size: cover;
 }
 .cabecera {
