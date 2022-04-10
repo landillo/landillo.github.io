@@ -1,0 +1,294 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink:  #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD982;
+    --sm: 14px;
+    --md: 20px;
+    --lg: 30px;
+}
+html {
+    background-image: url(/cursoPracticoJavaScrip/imagenes/fondoMadera.jpg);
+    background-size: cover;
+}
+.cabecera {
+    border-radius: 25px;
+    width: 450px;
+    height: 120px;
+    margin: 20px auto;
+    background-color: rgba(73, 70, 70, .5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.title {
+    font-size:40px;
+    margin-top:10px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    border-bottom: white 2px solid;
+}
+.sub-title {
+font-size: var(--md);
+text-align: center;
+font-family: sans-serif;
+padding: 5px;
+margin-top: -15px;
+}
+.calculadora{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.cuadrosChicos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+
+}
+/* unicia estilos para la caja de calculos del cuadrado */
+.calculosCuadrado {
+    background-color: rgba(73, 70, 70, .5);
+    color: white;
+    background-size: cover;
+    width: 400px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.tituloCuadrado{
+    border-bottom: white 1px solid;
+    text-align: center;
+}
+.perimetroCuadro{
+    background-color: rgb(114, 107, 107);
+    border-radius: 8px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    font-size: var(--sm);
+    font-weight: bold;
+    height: 50px;
+}
+.areaCuadro{
+    background-color: rgb(114, 107, 107);
+    border-radius: 8px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    font-size: var(--sm);
+    font-weight: bold;
+    height: 50px;
+    margin-left: 20px;
+}
+.cajaDeDatosCuadro{
+    color: white;
+    background-size: cover;
+    width: 400px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+.labelCuadro{
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+/* Termina estilos para caja de calculos del cuadrado */
+/* Inician estilos calculos del Circulo */
+.calculosCirculo {
+    background-color: rgba(73, 70, 70, .5);
+    color: white;
+    background-size: cover;
+    width: 400px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-radius: 25px;
+ 
+}
+.tituloCirculo{
+    border-bottom: white 1px solid;
+    text-align: center;
+}
+.cajaDatosCirculo{
+    color: white;
+    background-size: cover;
+    width: 400px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+.perimetroCirculo{
+    background-color: rgb(114, 107, 107);
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--sm);
+    font-weight: bold;
+    height: 50px
+}
+.areaCirculo{
+    background-color: rgb(114, 107, 107);
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--sm);
+    font-weight: bold;
+    height: 50px;
+    margin-left: 20px;
+}
+.botonesCirculo{
+    display: flex;
+    flex-direction: row;
+}
+/* Terminan estilos calculos del Circulo */
+
+/*Inici estilos para la caja de los calculos del triangulo, area y prerimetro)*/
+
+.calculosTriangulo{
+    background-color: rgba(73, 70, 70, .5);
+    color: white;
+    background-size: cover;
+    width: 400px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-radius: 25px;
+    margin-right: 20px;
+
+}
+.tituloTriangulo{
+    border-bottom: white 1px solid;
+    text-align: center
+}
+.cajaDeDatosTriangulo {
+    color: white;
+    background-size: cover;
+    /* width: 500px;
+    height: 500px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+.labelTriangulo{
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+.perimetroTriangulo{
+    background-color: rgb(114, 107, 107);
+    border-radius: 8px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    font-size: var(--sm);
+    font-weight: bold;
+    height: 50px;
+    /* margin-top: -10px;
+    margin-bottom: -10px; */
+}
+.areaTriangulo{
+    background-color: rgb(114, 107, 107);
+    border-radius: 8px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+    font-size: var(--sm);
+    font-weight: bold;
+    height: 50px;
+    margin-left: 20px;
+    /* margin-top: -10px;
+    margin-bottom: -10px; */
+}
+.botonesTriangulo{
+    color: white;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+/* Terminan estilos de calculo de Triangulo */
+
+/* Inician estilos calculos del Triangulo Isosceles */
+
+.calculosTrianguloIsosceles{
+    background-color: rgba(73, 70, 70, .5);
+    color: white;
+    background-size: cover;
+    width: 400px;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+.tituloTrianguloIsosceles{
+    border-bottom: white 1px solid;
+    text-align: center;
+}
+.cajaDatosTrianguloIsosceles{
+    color: white;
+    background-size: cover;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    border-radius: 25px;
+}
+
+.validarTriangulo{
+    background-color: rgb(114, 107, 107);
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--sm);
+    font-weight: bold;
+    height: 50px;
+}
+.alturaTriangulo{
+    background-color: rgb(114, 107, 107);
+    border-radius: 8px;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--sm);
+    font-weight: bold;
+    height: 50px;
+    margin-left: 20px;
+}
+.botonesTrianguloIsosceles{
+    display: flex;
+    flex-direction: row;
+}
