@@ -9,7 +9,7 @@
     --lg: 30px;
 }
 html {
-    background-image: url("https://images.pexels.com/photos/139306/pexels-photo-139306.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background-image: url("https://images.pexels.com/photos/139306/pexels-photo-139306.jpeg?cs=srgb&dl=pexels-fwstudio-139306.jpg&fm=jpg");
     background-size: cover;
 }
 .cabecera {
