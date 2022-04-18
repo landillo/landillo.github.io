@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y Descuentos | Curso Practico JavaScript</title>
+</head>
+<body>
+        <header>
+            <h1>
+                Porcentajes y Descuentos
+            </h1>
+            <p>Este es el segundo taller del Curso Practico de JavaScript</p>
+        </header>
+
+        <section>
+            <h2>Calcula el precio a pagar de tus productos con descuento</h2>
+            <form>
+                <!-- precio del producto -->
+                <label for="inputPrice">Ingresa el precio del producto</label> 
+                <input id="inputPrice" type="number"/><br>
+
+                <!-- opciones para ingresar descuento -->
+                <label for="opcionParaIngresarDescuento">Selecciona una opcion para ingresar el tipo de descuento</label>
+                <select name="opcionesDescuento" id="opcionParaIngresarDescuento" onchange="getDropdownValue()">
+                    <option value="0">Seleccione una opcion</option>
+                    <option value="1">Descuento con cupón</option>
+                    <option value="2">Descuento manual</option>
+                </select><br>
+
+                <!-- descuento manual -->
+                <label for="inputDiscount">Ingresa el descuento de tu producto</label>
+                <input id="inputDiscount" type="number" disabled="true"/><br>
+
+                <!-- descuento por cupón -->
+                <label for="inputCupon">ingresa cupón de descuento</label>
+                <input id="inputCupon" type="text" disabled="true" /><br>
+
+                <button type="button" id="manualDiscount" disabled="true" onclick="onClickButonPriceDiscount()">clacular Precio Con Descuento</button><br>
+                <button type="button" id="cuponDiscount" disabled="true" onclick="calcularPrecioConCupon()">calcular precio con cupon</button><br>
+                <p id="precioFinal"></p>
+            </form>
+        </section>
+        <script src="./descuentos.js"></script>
+</body>
+</html>
