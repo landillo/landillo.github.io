@@ -16,3 +16,10 @@ curso practico de JS
 - Segundo paso: implementar las formulas en JavaScript
 - Tercer paso: Crear Funciones.
 - Cuarto Paso: integar Js con HTML
+
+## Taller #3: Promedia, Moda y Mediana
+
+- Primer paso: Definir las formulas.
+- Segundo paso: implementar las formulas en JavaScript
+- Tercer paso: Crear Funciones.
+- Cuarto Paso: integar Js con HTML
